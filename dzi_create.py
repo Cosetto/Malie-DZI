@@ -70,4 +70,4 @@ def split_png(input_path, asset_name, texture_root, output_format="WEBP"):
     print(f"Split complete ({output_format}). File: {asset_name}.dzi")
 
 if __name__ == "__main__":
-    split_png('select.png', 'up_o', './tex', output_format="PNG")
+    split_png('select.png', 'select', './tex', output_format="PNG")
