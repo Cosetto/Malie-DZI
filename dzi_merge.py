@@ -35,4 +35,4 @@ def stitch_dzi(dzi_path, texture_root, output_png):
     canvas.save(output_png)
     print(f"Successfully stitched into {output_png}")
 
-stitch_dzi('select.dzi', './tex', 'akire.png')
+stitch_dzi('select.dzi', './tex', 'select.png')
